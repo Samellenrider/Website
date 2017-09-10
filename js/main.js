@@ -1,6 +1,6 @@
 function main() {
   $('.skillset').hide();
-  $('.skillset').fadeIn(1000);
+  $('.skillset').fadeIn(2000);
   $('.projects').hide();
   $('.projects-button').on('click', function() {
     //$(this).next().toggle();

@@ -1,11 +1,13 @@
 body {
-  font-family: Helvetica;
-  padding: 2em;
-  background-color: whitesmoke;
+  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 10em;
+  background-color: #F0F0F0;
 }
 
 h1 {
+  color: black;
   font-size: 2.5em;
+  font-weight: lighter;
 }
 
 .skillset {
@@ -16,18 +18,26 @@ h1 {
 
 .skill-html {
   background-color: #303030;
+  box-shadow: 10px 10px 5px #D0D0D0;
+  border-radius: 3.5px;
 }
 
 .skill-js {
   background-color: #585858;
+  box-shadow: 10px 10px 5px #A0A0A0;
+  border-radius: 3.5px;
 }
 
 .skill-jquery {
   background-color: #A0A0A0;
+  box-shadow: 10px 10px 5px #585858;
+  border-radius: 3.5px;
 }
 
 .skill-writing {
   background-color: #D0D0D0;
+  box-shadow: 10px 10px 5px #303030;
+  border-radius: 3.5px;
 }
 
 .skill-html,
@@ -36,16 +46,19 @@ h1 {
 .skill-writing{
   width: 100%;
   padding: 1em 3em 2em 2em;
-  margin: 0.5em;
-  color: whitesmoke;
+  margin: 1.5em;
+  color: black;
+  font-weight: lighter;
 }
 
 .projects-button {
   padding: 0.75em 1.25em;
-  background-color: whitesmoke;
+  background: whitesmoke;
+  background: linear-gradient(to right, #4dffff, #004d4d); 
   opacity: 0.9;
   width: 10em;
   color: black;
+  border-radius: 3.5px;
 }
 
 ul {
@@ -54,11 +67,11 @@ ul {
 }
 
 .projects {
-  margin: 1em 0;
+  marginri: 1em 0;
 }
 
 .active {
   background-color: #FF00CC;
-  color: whitesmoke;
+  color: black;
 }
 
