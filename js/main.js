@@ -1,15 +1,15 @@
 function main() {
   $('.skillset').hide();
-  $('.skillset').fadeIn(2000);
+  $('.skillset').fadeIn(1500);
   $('.projects').hide();
   $('.projects-button').on('click', function() {
     //$(this).next().toggle();
-    $(this).next().slideToggle(400);
+    $(this).next().slideToggle(500);
     $(this).toggleClass('active');
     $(this).text('Projects Viewed');
   });
 };
 
-$(document).ready(main);
+ $(document).ready(main);
 
 

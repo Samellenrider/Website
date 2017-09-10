@@ -54,7 +54,7 @@ h1 {
 .projects-button {
   padding: 0.75em 1.25em;
   background: whitesmoke;
-  background: linear-gradient(to right, #4dffff, #004d4d); 
+  background: linear-gradient(to right, #686868, #F7CAC9); 
   opacity: 0.9;
   width: 10em;
   color: black;
@@ -74,4 +74,3 @@ ul {
   background-color: #FF00CC;
   color: black;
 }
-
