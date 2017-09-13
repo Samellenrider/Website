@@ -6,7 +6,7 @@ function main() {
     //$(this).next().toggle();
     $(this).next().slideToggle(500);
     $(this).toggleClass('active');
-    $(this).text('Projects Viewed');
+   // $(this).text('Passage viewed');
   });
 };
 
